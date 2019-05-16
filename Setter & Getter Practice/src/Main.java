@@ -15,8 +15,9 @@ public class Main {
 		
 	}
 	
-	public Main(String n) { // Constructor
+	public Main(String n, int x) { // Constructor
 		this._name = n;
+		this.studentID = x;
 	}
 
 	public int getStudentID() {
